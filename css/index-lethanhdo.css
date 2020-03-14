@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  background-image: url(https://www.costa.co.uk/gatsby-assets/static/herringbone-2ff7cf61877fcbbcc7094d2b42c3b047.svg);
+  background-size: 94px 94px;
+  color: rgb(64, 64, 66);
+  font-weight: normal !important;
+  background-repeat: repeat;
+}
+@media (min-width: 768px) {
+  .section {
+    float: left;
+    width: 100%;
+    background-image: url(https://images.ctfassets.net/royi30b2qd26/5DcE1RNLGlvA3sjoT2i7es/32232bf4b961cd7c8f39ca558f3384c6/costa-homepage-10years-1600x464.jpg?w=1600&q=100);
+    height: 464px;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.container-header {
+  height: 148px;
+  padding: 34px 0;
+}
+.navigation {
+  max-width: 1508px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+}
+.main-nav {
+  display: block;
+  width: 100%;
+}
+ul {
+  padding: 0px;
+  margin: 0px;
+  display: block;
+  padding-inline-start: 40px;
+}
+.links {
+  font-size: 24px;
+  display: inline-block;
+  color: white;
+  font-weight: normal;
+  margin: 0px 16px;
+  list-style: none;
+  font-weight: 600;
+}
+.header-text {
+  margin: 0px 0px 0px 160px;
+  height: 310px;
+  max-width: 600px;
+  justify-content: center;
+  color: #fff;
+  align-items: center;
+  font-weight: 500;
+}
+.header-text h1 {
+  font-size: 70px;
+  line-height: 77px;
+  max-width: 600px;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+.header-text p {
+  font-size: 18px;
+  line-height: 28px;
+  padding-top: 36px;
+  max-width: 446px;
+  text-align: center;
+}
+.second-nav {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(181, 17, 68);
+  overflow: auto;
+  padding: 0px;
+  margin: 0px;
+}
+.second-links {
+  list-style: none;
+  font-size: 24px;
+  line-height: 40px;
+  padding: 15px 28px 18px;
+  text-decoration: none;
+  color: white;
+  display: list-item;
+}
+.second-links a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+}
+.main-content {
+  margin: 92px auto;
+  max-width: 1392px;
+  display: block;
+}
+.main-coffees {
+  width: 1160px;
+  margin-top: 96px;
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin: 80px auto;
+  position: relative;
+  background: none;
+}
+
+.core-coffee {
+  height: 624px;
+  text-align: center;
+  display: block;
+  align-items: center;
+  background: rgb(244, 243, 239);
+  flex: 1 1 0px;
+}
+
+.coffee-view {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+.coffee-details {
+  margin-left: 73px;
+  margin-right: 20px;
+  width: 450px;
+  height: 50%;
+  display: inline-block;
+  margin-top: -80px;
+}
+.coffee-details h1 {
+  font-size: 90px;
+  margin-bottom: -10px;
+  line-height: normal;
+  margin: 0px;
+  color: rgb(109, 31, 55);
+}
+.coffee-details h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  color: rgb(109, 31, 55);
+}
+.coffee-view .coffee-details > div {
+  display: block;
+  max-width: 330px;
+  font-size: 18px;
+  line-height: 1.56;
+  margin: auto;
+  color: rgb(109, 31, 55);
+}
+.coffee-view > img {
+  display: inline-block;
+  max-width: 416px;
+  width: 50%;
+  margin: auto;
+}
+.article1 {
+  width: 100%;
+  max-width: 803px;
+  margin: 80px auto;
+  text-align: center;
+}
+.article1 img {
+  max-height: 80px;
+  margin: 0px 0px 30px;
+  width: auto;
+}
+.article1 p {
+  font-family: Manus;
+  font-size: 40px;
+  line-height: 1.1;
+  color: rgb(206, 75, 39);
+  margin: 0px;
+}
+.article2 {
+  max-width: 1392px;
+  min-height: 512px;
+  margin: 80px auto;
+  padding: 0px;
+  position: relative;
+}
+.article2-block1 {
+  width: 50%;
+  margin: 0 px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.article2-block2 {
+  width: 50%;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 695px;
+  background-color: rgb(136, 18, 29);
+  height: 512px;
+  padding: 0px 94px;
+}
+.article2-block2-text {
+  margin: 0px auto 20px;
+}
+.article2-block2 h2 {
+  font-size: 46px;
+  margin: 56px 0px 20px;
+  line-height: 1.1;
+  text-align: center;
+}
+.article2-block2 p {
+  padding: 0px 30px;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+}
+.button {
+  text-align: center;
+  margin: 30px 200px;
+  width: 150px;
+}
+.article2-block2 a {
+  color: rgb(136, 18, 29);
+  background: rgb(255, 255, 255);
+  padding: 15px 20px;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.article3 {
+  max-width: 1392px;
+  min-height: 512px;
+  background-color: rgb(137, 133, 199);
+  margin: 80px auto;
+  padding: 0px;
+  position: relative;
+}
+.article3-block1 {
+  width: 50%;
+  margin: 0 px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.article3-block2 {
+  width: 50%;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 695px;
+  background-color: rgb(137, 133, 199);
+  height: 512px;
+  padding: 0px 94px;
+}
+.article3-block2-text {
+  margin: 0px auto 20px;
+}
+.article3-block2 h2 {
+  font-size: 46px;
+  margin: 56px 0px 20px;
+  line-height: 1.1;
+  text-align: center;
+}
+.article3-block2 p {
+  padding: 0px 30px;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+}
+.button {
+  text-align: center;
+  margin: 30px 200px;
+  width: 150px;
+}
+.article3-block2 a {
+  color: rgb(137, 133, 199);
+  background: rgb(255, 255, 255);
+  padding: 15px 20px;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.article4 {
+  max-width: 1392px;
+  min-height: 512px;
+  background-color: rgb(137, 133, 199);
+  margin: 80px auto;
+  padding: 0px;
+  position: relative;
+}
+.article4-block1 {
+  width: 50%;
+  margin: 0 px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.article4-block2 {
+  width: 50%;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 695px;
+  background-color: rgb(244, 243, 239);
+  height: 512px;
+  padding: 0px 94px;
+}
+.article4-block2-text {
+  margin: 0px auto 20px;
+}
+.article4-block2 h2 {
+  font-size: 46px;
+  margin: 56px 0px 20px;
+  line-height: 1.1;
+  text-align: center;
+  color: rgb(109, 31, 55);
+}
+.article4-block2 p {
+  padding: 0px 30px;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+  color: rgb(64, 64, 66);
+}
+.button {
+  text-align: center;
+  margin: 30px 200px;
+  width: 150px;
+}
+.article4-block2 a {
+  color: rgb(109, 31, 55);
+  background: rgb(255, 255, 255);
+  padding: 15px 20px;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer {
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  background: rgb(181, 17, 68);
+}
+.footer-image {
+  background-color: rgb(181, 17, 68);
+  background-image: url(https://www.costa.co.uk/gatsby-assets/static/waffle-6f8cafdddff040dcd3d13a0ccc3be37d.svg);
+}
+.footer-main {
+  max-width: 1274px;
+  padding: 64px 83px 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: left;
+  margin: auto;
+}
+.footer-container {
+  flex: 0 0 212px;
+  margin: 0px 5.5% 64px 0px;
+}
+.footer-container h6 {
+  font-size: 18px;
+  margin: 0px 0px 40px;
+  font-weight: 600;
+}
+.footer-container ul {
+  padding: 0px;
+  list-style: none;
+  margin: 0px;
+}
+.footer-container li {
+  margin-bottom: 12px;
+  list-style: none;
+}
+.footer-container li a {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.footer-bottom {
+  height: 80px;
+  background: rgb(109, 31, 55);
+}
+.footer-bottom-container {
+  max-width: 1274px;
+  height: 80px;
+  align-items: center;
+  margin: auto;
+  padding: 0px;
+}
+.footer-bottom-container ul {
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  list-style: none;
+  flex: 0 0 auto;
+}
+.footer-bottom-container span {
+  margin-right: 64px;
+}
