@@ -1,0 +1,122 @@
+{
+  "coffees":[
+    {
+      "image": "imgs/coconut%20and%20vanilla%20latte%20(2).jpg",
+      "name": "Coconut and Vanilla Latte"
+    },
+    {
+      "image": "imgs/spiced%20cappuccino.jpg",
+      "name": "Spiced Cappuccino"
+    },
+    {
+      "image": "imgs/flat%20white.jpg",
+      "name": "Flat White"
+    },
+    {
+      "image": "imgs/cappuccino.jpg",
+      "name": "Cappuccino"
+    },
+    {
+      "image": "imgs/coconut%20and%20vanilla%20latte%20(2).jpg",
+      "name": "Latte"
+    },
+    {
+      "image": "imgs/americano.jpg",
+      "name": "Americano"
+    },
+    {
+      "image": "imgs/cortado.jpg",
+      "name": "Cortado"
+    },
+    {
+      "image": "imgs/caramel%20cortado.jpg",
+      "name": "Caramel Cortado"
+    },
+    {
+      "image": "imgs/espresso.jpg",
+      "name": "Espresso"
+    },
+    {
+      "image": "imgs/ristretto.jpg",
+      "name": "Ristretto"
+    },
+    {
+      "image": "imgs/macchiato.jpg",
+      "name": "Macchiato"
+    },
+    {
+      "image": "imgs/house%20filter.jpg",
+      "name": "House Filter Coffee"
+    },
+    {
+      "image": "imgs/house%20filter.jpg",
+      "name": "House Filter Coffee"
+    }
+  ],
+  "hotchocolate_othermilkdrinks": [
+    {
+      "image": "imgs/white%20hot%20chocolate.jpg",
+      "name": "White Hot Chocolate<"
+    },
+    {
+      "image": "imgs/hot%20chocolate.jpg",
+      "name": "Hot Chocolate"
+    },
+    {
+      "image": "imgs/chai%20latte.jpg",
+      "name": "Chai Latte"
+    },
+    {
+      "image": "imgs/vanilla%20milk%20whip.jpg",
+      "name": "Vanilla Milk Whip"
+    },
+    {
+      "image": "imgs/vanilla%20milk%20whip.jpg",
+      "name": "Vanilla Milk Whip"
+    },
+    {
+      "image": "imgs/strawberry%20nilk%20whip.jpg",
+      "name": "Strawberry Milk Whip"
+    },
+    {
+      "image": "imgs/milk%20babyccino.jpg",
+      "name": "Milk Babyccino"
+    }
+  ],
+  "coffeeoverice": [
+    {
+      "image": "imgs/iced%20flat%20white.jpg",
+      "name": "Iced Flat White"
+    },
+    {
+      "image": "imgs/iced%20cappuccino.jpg",
+      "name": "Iced Cappuccino"
+    },
+    {
+      "image": "imgs/iced%20latte.jpg",
+      "name": "Iced Latte"
+    },
+    {
+      "image": "imgs/iced%20mocha.jpg",
+      "name": "Iced Mocha"
+    },
+    {
+      "image": "imgs/iced%20americano.jpg",
+      "name": "Iced Americano"
+    },
+    {
+      "image": "imgs/iced%20cortado.jpg",
+      "name": "Iced Cortado"
+    }
+  ],
+  "coldbrewcoffee": [
+    {
+      "image": "imgs/cold%20brew%20coffee%20black.jpg",
+      "name": "Cold Brew Coffee Black"
+    },
+    {
+      "image": "imgs/cold%20brew%20coffee%20black%20with%20whipped%20milk.jpg",
+      "name": "Cold Brew Coffee with whipped milk"
+    }
+  ]
+}

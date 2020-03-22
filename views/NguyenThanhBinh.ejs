@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu | Costa Coffee</title>
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:300,400,500,600,700,800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css"/>
+    <link rel="stylesheet" href="css/binh.css" type="text/css"/>
+</head>
+<body>
+    <header class="section">
+        <div class="container">
+            <div class="menu">
+                <div class="click click1"><a href="TrinhNgocVan.html"><h3>COSTA</h3> COFFEE</a></div>
+                <div class="click"><a href="LeThanhDo.html">Our coffees</a></div>
+                <div class="click"><a href="NguyenThanhBinh.html"><span>Our menu</span></a></div>
+                <div class="click"><a href="#">Coffee Club</a></div>
+                <div class="click click2"><a href="NguyenAnhDuc.html">Behind the beans</a></div>
+                <div class="click"><a href="#">eGift</a></div>
+            </div>
+            <div class="header-right">
+                <a class="marker" href="#"><i class="fas fa-map-marker-alt"></i></a>
+                <a class="user" href="#"><i class="far fa-user"></i></a>
+            </div>
+            <div id="quangcao">
+                <h1>Menu</h1>
+                <br/>Our menu's full off the good stuff. Whatever your diet or preferences, there's enough choice for everyone
+            </div>
+        </div>
+    </header>
+    <section class="section1">
+        <div class="container">
+            <div class="container1 ctn">
+                <ul class="menu1">
+                    <li><a class="drinks" href="#"><i class="fas fa-mug-hot"></i><br/>Drinks</a></li>
+                    <li><a class="food" href="#"><i class="fas fa-birthday-cake"></i><br/>Food</a></li>
+                </ul>
+            </div>
+            <div class="container2 ctn">
+                <div id="center">
+                    <div class="showing">
+                        <p>Showing</p>
+                        <form method="get" action="#">
+                            <select name="alldrinks">
+                                <option value="all">All drinks</option>
+                                <option value="cf">coffees</option>
+                                <option value="ho">Hot Chocolate & Other Milk Drinks</option>
+                                <option value="coi">Coffee Over Ice</option>
+                                <option value="cbc">Cold Brew Coffee</option>
+                                <option value="fr">frostino</option>
+                                <option value="fc">Fruit Coolers</option>
+                                <option value="it">Iced Teas & Lemonades</option>
+                                <option value="tea">Tea</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="iam">
+                        <p>I am...</p>
+                        <div class="items">
+                            <a href="#">
+                                <div class="item"><i class="fas fa-seedling"></i></div>
+                                <span>Vegetarian</span>
+                            </a>
+                            <a href="#">
+                                <div class="item"><i class="fab fa-vuejs"></i></div>
+                                <span>Vegan</span>
+                            </a>
+                            <a href="#">
+                                <div class="item">GF</div>
+                                <span>Gluten Free</span>
+                            </a>
+                            <a href="#">
+                                <div class="item"><i class="fas fa-wine-bottle"></i></div>
+                                <span>Dairy Free</span>
+                            </a>
+                            <a href="#">
+                                <div class="item"><i class="fab fa-nutritionix"></i></div>
+                                <span>Nut Free</span>
+                            </a>
+                            <a href="#">
+                                <div class="item"><i class="fab fa-nutritionix"></i></div>
+                                <span>Peanut Free</span>
+                            </a>
+                            <a href="#">
+                                <div class="item"><i class="fas fa-cannabis"></i></div>
+                                <span>Soya Free</span>
+                            </a>
+                            <a href="#">
+                                Clear
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container3 ctn">
+                <h1>Coffees</h1>
+                <% cf.coffees.forEach(function (coffee) { %>
+                    <a class="coffee" href="#">
+                        <div class="anh">
+                            <img src="<%= coffee.image%>"/>
+                        </div>
+                        <div class="name"><%= coffee.name%></div>
+                    </a>
+                <% }) %>
+            </div>
+            <div class="container4 ctn">
+                <h1>Hot Chocolate & Other Milk Drinks</h1>
+                <% cf.hotchocolate_othermilkdrinks.forEach(function (coffee) { %>
+                    <a class="coffee" href="#">
+                        <div class="anh">
+                            <img src="<%= coffee.image%>"/>
+                        </div>
+                        <div class="name"><%= coffee.name%></div>
+                    </a>
+                <% }) %>
+            </div>
+            <div class="container5 ctn">
+                <h1>Coffee Over Ice</h1>
+                <% cf.coffeeoverice.forEach(function (coffee) { %>
+                    <a class="coffee" href="#">
+                        <div class="anh">
+                            <img src="<%= coffee.image%>"/>
+                        </div>
+                        <div class="name"><%= coffee.name%></div>
+                    </a>
+                <% }) %>
+            </div>
+            <div class="container6 ctn">
+                <h1>Cold Brew Coffee</h1>
+                <% cf.coldbrewcoffee.forEach(function (coffee) { %>
+                    <a class="coffee" href="#">
+                        <div class="anh">
+                            <img src="<%= coffee.image%>"/>
+                        </div>
+                        <div class="name"><%= coffee.name%></div>
+                    </a>
+                <% }) %>
+            </div>
+            <div class="container7 ctn">
+                <i>We use shared equipment, we cannot guarantee that our unpackaged food items or hand-crafted drinks are
+                suitable for people with severe allergies. Check our Allergen Information or ask a Costa Coffee team
+                member each visit as ingredients may have changed since your last purchase.</i>
+            </div>
+        </div>
+    </section>
+    <div class="bottom">
+        <div class="grid">
+            <h3>Costa Gift Cards</h3>
+            <br/><p>E-gifting</p>
+            <br/><p>Gift cards for business</p>
+        </div>
+        <div class="grid">
+            <h3>Dietary Information</h3>
+            <br/><p>Nutrition & Allergens</p>
+            <br/><p>Detailed dietary information</p>
+            <br/><p>Costa Express dietary information</p>
+            <br/><p>Ready To Drink dietary information</p>
+        </div>
+        <div class="grid">
+            <h3>Business</h3>
+            <br/><p>Costa Business Partners</p>
+        </div>
+        <div class="grid">
+            <h3>Contact us</h3>
+            <br/><p>FAQs</p>
+            <br/><p>Contact us</p>
+            <br/><p>Press</p>
+            <br/><p>Careers</p>
+        </div>
+    </div>
+    <div class="end">
+        <p>© 2013 - 2020 Costa. All rights reserved</p>
+    </div>
+</body>
+</html>
