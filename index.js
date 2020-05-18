@@ -9,7 +9,7 @@
 var express = require("express");
 
 var app = express();
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT||3000;
 app.listen(PORT,function(){
     console.log("Server is running..");
 });
@@ -27,11 +27,11 @@ app.get("/",function (req,res) { // routing - Routes
 
 app.get("/LeThanhDo",function (req,res) {
     res.render("LeThanhDo");
-})
+});
 
 app.get("/TrinhNgocVan",function (req,res) {
     res.render("TrinhNgocVan");
-})
+});
 
 app.get("/NguyenThanhBinh",function (req,res) {
     var coffees = fs.readFileSync("data/coffees.json");
@@ -41,7 +41,10 @@ app.get("/NguyenThanhBinh",function (req,res) {
         cf : cf
     });
 })
-
+;
 app.get("/NguyenAnhDuc",function (req,res) {
     res.render("NguyenAnhDuc");
-})
+});
+app.get("/demo",function (req,res) {
+    res.render("demo");
+});
